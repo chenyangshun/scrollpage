@@ -1,0 +1,24 @@
+#scrollBox{
+		width: auto;
+		height: 400px;
+		overflow: hidden;
+		/* overflow-y: scroll;*/
+		-webkit-overflow-scrolling: touch; 
+		clear: both;
+	}
+	
+#scrollBox>div{
+		clear: both;
+		display: block;
+		position: relative;
+		left:0;
+		top:0;
+		height:auto;
+		z-index: 3000;
+	}
+	/*利用:after伪元素*/
+    #scrollBox>div ul:after {
+            content:"";
+            display: block;
+            clear: both;
+     }
