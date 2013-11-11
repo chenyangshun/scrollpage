@@ -12,7 +12,8 @@ $(document).ready(function(e){
 	$("#scrollBox").scrollpage({currentPage:1,pageHeight:390,speed:300});
 });
 </script>
-
+<code>
+<pre>
 <div data-role="page" data-fullscreen="true">
 		<div data-role="content">
 			<div class="scroll-box"  id="scrollBox">
@@ -44,5 +45,5 @@ $(document).ready(function(e){
 			</div>
 		</div>
 	</div>
-
-
+</pre>
+</code>
